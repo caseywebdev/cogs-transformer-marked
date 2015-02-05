@@ -16,6 +16,6 @@
     "mocha": "2.1.0"
   },
   "scripts": {
-    "test": "istanbul cover _mocha"
+    "test": "istanbul cover _mocha test/test.js"
   }
 }
