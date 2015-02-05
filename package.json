@@ -1,0 +1,21 @@
+{
+  "name": "cogs-transformer-example",
+  "version": "1.0.0",
+  "author": "Casey Foster <c@sey.me>",
+  "description": "An example transformer for Cogs.",
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caseywebdev/cogs-transformer-example"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cogs": "0.33.8",
+    "chai": "1.10.0",
+    "istanbul": "0.3.5",
+    "mocha": "2.1.0"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha"
+  }
+}

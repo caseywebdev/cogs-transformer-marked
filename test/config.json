@@ -1,0 +1,12 @@
+{
+  "in": {
+    "txt": {
+      "transformers": {
+        "name": ".",
+        "options": {
+          "errorText": "error"
+        }
+      }
+    }
+  }
+}
