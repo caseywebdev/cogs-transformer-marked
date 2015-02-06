@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Casey Foster <c@sey.me>",
   "description": "An example transformer for Cogs.",
-  "licence": "MIT",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/caseywebdev/cogs-transformer-example"
