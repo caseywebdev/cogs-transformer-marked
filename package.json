@@ -9,7 +9,7 @@
     "url": "https://github.com/caseywebdev/cogs-transformer-example"
   },
   "devDependencies": {
-    "cogs-test-helper": "1.0.0"
+    "cogs-test-helper": "1.0.1"
   },
   "scripts": {
     "test": "cogs-test-helper test/test.js"
