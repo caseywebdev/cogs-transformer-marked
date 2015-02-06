@@ -1,5 +1,6 @@
+var marked = require('marked');
+
 module.exports = function (file, options, cb) {
-  var source = file.buffer.toString();
-  if (source.indexOf(options.errorText) > -1) return cb(new Error('No good!'));
-  cb(null, {buffer: new Buffer('bar\n')});
+  var source = marked.setOptions(options)(file.buffer.toString());
+  cb(null, {buffer: new Buffer(source)});
 };

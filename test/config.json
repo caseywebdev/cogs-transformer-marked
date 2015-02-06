@@ -1,11 +1,8 @@
 {
   "in": {
-    "txt": {
+    "md": {
       "transformers": {
-        "name": ".",
-        "options": {
-          "errorText": "error"
-        }
+        "name": "."
       }
     }
   }
