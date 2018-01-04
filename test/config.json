@@ -1,9 +1,1 @@
-{
-  "in": {
-    "md": {
-      "transformers": {
-        "name": "."
-      }
-    }
-  }
-}
+{"transformers": "."}

@@ -1,6 +1,6 @@
 {
   "name": "cogs-transformer-marked",
-  "version": "1.0.2",
+  "version": "3.0.0",
   "author": "Casey Foster <c@sey.me>",
   "description": "A marked transformer for Cogs.",
   "license": "MIT",
@@ -9,10 +9,10 @@
     "url": "https://github.com/caseywebdev/cogs-transformer-marked"
   },
   "dependencies": {
-    "marked": "0.3.3"
+    "marked": "0.3"
   },
   "devDependencies": {
-    "cogs-test-helper": "1.0.6"
+    "cogs-test-helper": "3"
   },
   "scripts": {
     "test": "cogs-test-helper test/test.js"
